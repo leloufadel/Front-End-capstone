@@ -6,7 +6,7 @@ const initialState = {
   isLoading: true,
 };
 
-const url = 'https://library-api-f7m3.onrender.com/api/books';
+const url = 'https://page-to-page-library-backend-production.up.railway.app/api/books';
 
 export const getBooks = createAsyncThunk('books/getBooks', async () => {
   const res = await axios.get(url);

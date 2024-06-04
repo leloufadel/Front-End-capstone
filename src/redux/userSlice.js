@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const BASE_URL = 'https://library-api-f7m3.onrender.com/';
+const BASE_URL = 'https://page-to-page-library-backend-production.up.railway.app/';
 
 const initialToken = localStorage.getItem('token') || null;
 
